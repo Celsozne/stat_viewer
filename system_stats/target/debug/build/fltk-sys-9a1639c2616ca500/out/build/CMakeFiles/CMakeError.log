@@ -1,0 +1,107 @@
+Determining if files alsa/asoundlib.h exist failed with the following output:
+Change Dir: /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-peDL6Z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a072e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a072e.dir/build.make CMakeFiles/cmTC_a072e.dir/build
+gmake[1]: Entering directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-peDL6Z'
+Building C object CMakeFiles/cmTC_a072e.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a072e.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-peDL6Z/HAVE_ALSA_ASOUNDLIB_H.c
+/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-peDL6Z/HAVE_ALSA_ASOUNDLIB_H.c:2:10: fatal error: alsa/asoundlib.h: No such file or directory
+    2 | #include <alsa/asoundlib.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a072e.dir/build.make:78: CMakeFiles/cmTC_a072e.dir/HAVE_ALSA_ASOUNDLIB_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-peDL6Z'
+gmake: *** [Makefile:127: cmTC_a072e/fast] Error 2
+
+
+Source:
+/* */
+#include <alsa/asoundlib.h>
+
+
+int main(void){return 0;}
+
+Determining if files OpenGL/glu.h exist failed with the following output:
+Change Dir: /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-49DLHe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecc36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecc36.dir/build.make CMakeFiles/cmTC_ecc36.dir/build
+gmake[1]: Entering directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-49DLHe'
+Building C object CMakeFiles/cmTC_ecc36.dir/HAVE_OPENGL_GLU_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_ecc36.dir/HAVE_OPENGL_GLU_H.c.o -c /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-49DLHe/HAVE_OPENGL_GLU_H.c
+/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-49DLHe/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+    2 | #include <OpenGL/glu.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_ecc36.dir/build.make:78: CMakeFiles/cmTC_ecc36.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-49DLHe'
+gmake: *** [Makefile:127: cmTC_ecc36/fast] Error 2
+
+
+Source:
+/* */
+#include <OpenGL/glu.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/stdtypes.h exist failed with the following output:
+Change Dir: /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-fzU87c
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a57ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a57ef.dir/build.make CMakeFiles/cmTC_a57ef.dir/build
+gmake[1]: Entering directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-fzU87c'
+Building C object CMakeFiles/cmTC_a57ef.dir/HAVE_SYS_STDTYPES_H.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64  -o CMakeFiles/cmTC_a57ef.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-fzU87c/HAVE_SYS_STDTYPES_H.c
+/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-fzU87c/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
+    2 | #include <sys/stdtypes.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a57ef.dir/build.make:78: CMakeFiles/cmTC_a57ef.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
+gmake[1]: Leaving directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-fzU87c'
+gmake: *** [Makefile:127: cmTC_a57ef/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/stdtypes.h>
+
+
+int main(void){return 0;}
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-53eaRA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a2fa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a2fa.dir/build.make CMakeFiles/cmTC_3a2fa.dir/build
+gmake[1]: Entering directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-53eaRA'
+Building C object CMakeFiles/cmTC_3a2fa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcat -o CMakeFiles/cmTC_3a2fa.dir/CheckFunctionExists.c.o -c /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-53eaRA/CheckFunctionExists.c
+Linking C executable cmTC_3a2fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a2fa.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcat CMakeFiles/cmTC_3a2fa.dir/CheckFunctionExists.c.o -o cmTC_3a2fa 
+/usr/bin/ld: CMakeFiles/cmTC_3a2fa.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.main+0x10): undefined reference to `strlcat'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_3a2fa.dir/build.make:99: cmTC_3a2fa] Error 1
+gmake[1]: Leaving directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-53eaRA'
+gmake: *** [Makefile:127: cmTC_3a2fa/fast] Error 2
+
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-RauXAR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ec676/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ec676.dir/build.make CMakeFiles/cmTC_ec676.dir/build
+gmake[1]: Entering directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-RauXAR'
+Building C object CMakeFiles/cmTC_ec676.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcpy -o CMakeFiles/cmTC_ec676.dir/CheckFunctionExists.c.o -c /home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-RauXAR/CheckFunctionExists.c
+Linking C executable cmTC_ec676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec676.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -DCHECK_FUNCTION_EXISTS=strlcpy CMakeFiles/cmTC_ec676.dir/CheckFunctionExists.c.o -o cmTC_ec676 
+/usr/bin/ld: CMakeFiles/cmTC_ec676.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.main+0x10): undefined reference to `strlcpy'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ec676.dir/build.make:99: cmTC_ec676] Error 1
+gmake[1]: Leaving directory '/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out/build/CMakeFiles/CMakeScratch/TryCompile-RauXAR'
+gmake: *** [Makefile:127: cmTC_ec676/fast] Error 2
+
+
+

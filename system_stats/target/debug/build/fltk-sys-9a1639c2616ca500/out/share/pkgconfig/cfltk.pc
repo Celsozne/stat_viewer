@@ -1,0 +1,15 @@
+prefix="/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-9a1639c2616ca500/out"
+exec_prefix="${prefix}"
+libdir="${prefix}/lib"
+includedir="${prefix}/include"
+
+Name: cfltk
+Description: C Bindings for FLTK
+URL: https://github.com/MoAlyousef/cfltk
+Version: 1.4.32
+
+Requires:
+Requires.private:  x11 xinerama xcursor xfixes xext xrender xft fontconfig cairo pango pangoxft pangocairo gobject-2.0 wayland-client wayland-cursor xkbcommon
+Cflags: -I"${includedir}" 
+Libs: -L"${libdir}" -lcfltk
+Libs.private: -L"${libdir}" -lcfltk -lfltk -lfltk_images -lfltk_z -lfltk_jpeg -lfltk_png -ldbus-1 -lsupc++ -ldl -pthread

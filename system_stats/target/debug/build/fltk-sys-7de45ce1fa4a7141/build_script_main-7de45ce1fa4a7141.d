@@ -1,0 +1,11 @@
+/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-7de45ce1fa4a7141/build_script_main-7de45ce1fa4a7141: /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/main.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/android.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/bundled.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/link.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/pkg_config.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/source.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/utils.rs
+
+/home/xerox1/Documents/GitHub/stat_viewer/system_stats/target/debug/build/fltk-sys-7de45ce1fa4a7141/build_script_main-7de45ce1fa4a7141.d: /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/main.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/android.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/bundled.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/link.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/pkg_config.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/source.rs /home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/utils.rs
+
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/main.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/android.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/bundled.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/link.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/pkg_config.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/source.rs:
+/home/xerox1/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fltk-sys-1.4.32/build/utils.rs:

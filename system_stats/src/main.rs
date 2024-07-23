@@ -12,6 +12,7 @@ use std::io::prelude::*;
 use std::time::Duration;
 use std::thread;
 pub use libc::c_int;
+use libc::system;
 
 fn _cpu_informations() -> Components {
     let temperatures = Components::new_with_refreshed_list();
@@ -24,7 +25,6 @@ fn _log_data_system(system: &System) {
     let cpu_speed = system.global_cpu_info().frequency(); // em MHz
     let ram_speed = system.total_memory(); // em KB
     let timestamp = chrono::Local::now().to_rfc3339();
-
 }
 
 fn interface(system: &System,component: &Components) {
@@ -55,9 +55,11 @@ fn main() {
     let mut wind = Window::new(100, 100, 400, 300, "App");
     let mut tabs = Tabs::default().with_size(400, 300);
     let mut grp = Flex::default_fill().column();
-
+    
     //Initialize the system
     let mut system = System::new_all();
+    interface(&system, &Default::default());
+    let _ = app.run();
     //Loop
     loop {
         system.refresh_all();
@@ -65,5 +67,4 @@ fn main() {
         _cpu_informations();
         thread::sleep(Duration::from_secs(10));
     }
-   let _ = app.run();
 }
